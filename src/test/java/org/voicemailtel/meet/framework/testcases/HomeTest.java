@@ -48,6 +48,7 @@ public class HomeTest {
    @Test
    public void TC_1_4() throws InterruptedException {
        String URL = driver.getCurrentUrl();
+      
        
     Assert.assertEquals(URL, "https://meet.voicemailtel.com/" );
     //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(â€œTest passedâ€�) } else { System.out.println(â€œTest failedâ€�)
