@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3567a819-2f5f-4250-b0cb-de54322c79bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/reports/EmailReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/data/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/data/HomeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/drivermanager/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/listener/ScreenshotListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/pages/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/pages/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/reports/EmailReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/testcases/HomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/utils/CoreUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/utils/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/resources/Datasheet1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/src/test/resources/framework.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_06032021148.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_06032021397.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_06032021462.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_06032021825.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_06032021939.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_20032021227.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021101.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021119.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021149.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021151.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021252.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021274.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021310.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021349.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021437.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021489.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021702.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021803.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021830.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021842.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_2102202186.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021890.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_21022021947.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_2102202197.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021103.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021242.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021310.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021336.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021518.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021654.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021728.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_27022021866.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/reports/RunReport_2702202187.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_10_15032021413.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_3_1503202108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_3_15032021155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_6_15032021268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_6_15032021441.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_6_15032021516.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_7_15032021975.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/fail/TC_2_9_15032021576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_1_3_15032021707.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_10_15032021433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_11_15032021497.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_15032021186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_15032021740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_15032021947.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_20032021202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_20032021379.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_1_20032021779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_2_15032021940.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_4_15032021684.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/screenshot/pass/TC_2_5_15032021918.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/junitreports/TEST-org.voicemailtel.meet.framework.testcases.HomeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/EndToEnd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/old/voicemailtel/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/voicemailtel/EndToEnd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/voicemailtel/EndToEnd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/surefire-reports/voicemailtel/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/test-classes/Datasheet1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/target/test-classes/framework.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../voicemailtel/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QA Testing self practice/automation-learning" beforeDir="false" afterPath="$PROJECT_DIR$/../QA Testing self practice/automation-learning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/listeners/ScreenshotListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/listeners/ScreenshotListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_ChangeCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_ChangeCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_HelloSelectAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_HelloSelectAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_HelloSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_HelloSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_ReturnsAndOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_ReturnsAndOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_SearchTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/pages/TopNavBar_SearchTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/reports/Reports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/testcases/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/testcases/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/utils/CoreUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/utils/CoreUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/utils/StatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/java/io/amazon/project/framework/utils/StatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/src/test/resources/framework.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/src/test/resources/framework.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/target/test-classes/framework.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../amazonproject--main/target/test-classes/framework.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazonproject--main/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baug2020-ds-merge/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voicemailtel/src/test/java/org/voicemailtel/meet/framework/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baug2020-ds-merge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baug2020-ds-merge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baug2020-ds-merge/src/test/java/io/pragra/learning/framwork/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baug2020-ds-merge/src/test/java/io/pragra/learning/framwork/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baug2020-ds-merge/src/test/java/io/pragra/learning/framwork/utils/CoreUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baug2020-ds-merge/src/test/java/io/pragra/learning/framwork/utils/CoreUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voicemailtel.meet.test.framework-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voicemailtel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voicemailtel.meet.test.framework-main/src/test/java/voicemailtel/meet/test/framework/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voicemailtel.meet.test.framework-main/src/test/java/voicemailtel/meet/test/framework/data/Data.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mlqisiKyILmK3BbsNgQeG3HaCC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Pragra\IntellijIdeaProjects\voicemailtel" />
+      <recent name="C:\Pragra\IntellijIdeaProjects\voicemailtel\target" />
+      <recent name="C:\Pragra\IntellijIdeaProjects\voicemailtel\src\test\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pragra\IntellijIdeaProjects\voicemailtel\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Pragra/IntellijIdeaProjects/voicemailtel/testng.xml">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Pragra/IntellijIdeaProjects/voicemailtel/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="voicemailtel" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="voicemailtel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.voicemailtel.meet.framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.voicemailtel.meet.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.voicemailtel.meet.framework.testcases.HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.TC_2_6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="voicemailtel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.voicemailtel.meet.framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.voicemailtel.meet.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.voicemailtel.meet.framework.testcases.HomeTest" />
+      <option name="METHOD_NAME" value="TC_2_6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.TC_2_7" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="voicemailtel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.voicemailtel.meet.framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.voicemailtel.meet.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.voicemailtel.meet.framework.testcases.HomeTest" />
+      <option name="METHOD_NAME" value="TC_2_7" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.TC_3_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="voicemailtel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.voicemailtel.meet.framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.voicemailtel.meet.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.voicemailtel.meet.framework.testcases.HomeTest" />
+      <option name="METHOD_NAME" value="TC_3_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Pragra/IntellijIdeaProjects/voicemailtel/testng.xml" />
+        <item itemvalue="TestNG.HomeTest.TC_3_1" />
+        <item itemvalue="TestNG.HomeTest.TC_2_6" />
+        <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.HomeTest.TC_2_7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3567a819-2f5f-4250-b0cb-de54322c79bc" name="Default Changelist" comment="" />
+      <created>1610078658184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610078658184</updated>
+      <workItem from="1610078660165" duration="5684000" />
+      <workItem from="1610165128100" duration="2289000" />
+      <workItem from="1610226718494" duration="24423000" />
+      <workItem from="1610333179663" duration="4628000" />
+      <workItem from="1610417922681" duration="4140000" />
+      <workItem from="1610513955343" duration="1137000" />
+      <workItem from="1610586670568" duration="1318000" />
+      <workItem from="1610854514095" duration="1142000" />
+      <workItem from="1610939024344" duration="1208000" />
+      <workItem from="1611028205936" duration="98000" />
+      <workItem from="1611031719742" duration="209000" />
+      <workItem from="1611104777267" duration="7944000" />
+      <workItem from="1611293568998" duration="6259000" />
+      <workItem from="1611356437032" duration="887000" />
+      <workItem from="1611371290226" duration="10785000" />
+      <workItem from="1612322233935" duration="831000" />
+      <workItem from="1612505543330" duration="2199000" />
+      <workItem from="1612508061633" duration="2388000" />
+      <workItem from="1612510889973" duration="112000" />
+      <workItem from="1613272324807" duration="6342000" />
+      <workItem from="1613348671142" duration="592000" />
+      <workItem from="1613673423545" duration="14201000" />
+      <workItem from="1613763225920" duration="5751000" />
+      <workItem from="1613864708465" duration="17763000" />
+      <workItem from="1613949718062" duration="6507000" />
+      <workItem from="1614387804313" duration="10534000" />
+      <workItem from="1614649489107" duration="618000" />
+      <workItem from="1614912332279" duration="605000" />
+      <workItem from="1615006389312" duration="597000" />
+      <workItem from="1615043892308" duration="8371000" />
+      <workItem from="1615256857575" duration="1214000" />
+      <workItem from="1615615078511" duration="1785000" />
+      <workItem from="1615780684025" duration="1984000" />
+      <workItem from="1615858697553" duration="2440000" />
+      <workItem from="1616127991808" duration="891000" />
+      <workItem from="1616188291960" duration="7345000" />
+      <workItem from="1616256611193" duration="16000" />
+      <workItem from="1617552415772" duration="17410000" />
+      <workItem from="1617683865633" duration="144000" />
+      <workItem from="1617984547029" duration="2277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1617553408446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1617553408446" />
+    <state x="1458" y="92" width="840" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1613890421216">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1458" y="92" width="840" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613890421216" />
+    <state x="1638" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613687206418">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1638" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613687206418" />
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1614454920553">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1732" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613953417474" />
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614454920553" />
+    <state x="1624" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613686777023">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1624" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613686777023" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1617592270552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1616253073759" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617592270552" />
+    <state width="1323" height="331" key="GridCell.Tab.0.bottom" timestamp="1616252588394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1616252588394" />
+    <state width="981" height="424" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613970913790" />
+    <state width="1317" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614459035699" />
+    <state width="1323" height="331" key="GridCell.Tab.0.center" timestamp="1616252588394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1616252588394" />
+    <state width="981" height="424" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613970913790" />
+    <state width="1317" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614459035698" />
+    <state width="1323" height="331" key="GridCell.Tab.0.left" timestamp="1616252588393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1616252588393" />
+    <state width="981" height="424" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613970913790" />
+    <state width="1317" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614459035698" />
+    <state width="1323" height="331" key="GridCell.Tab.0.right" timestamp="1616252588394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1616252588394" />
+    <state width="981" height="424" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1613970913790" />
+    <state width="1317" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614459035698" />
+    <state x="426" y="18" key="Maven.ArtifactSearchDialog" timestamp="1613272917014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1613272917014" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1610085127115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1610085127115" />
+    <state x="65" y="0" key="new project wizard" timestamp="1617592642335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1617556761642" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617592642335" />
+  </component>
+</project>

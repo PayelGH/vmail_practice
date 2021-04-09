@@ -1,0 +1,185 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 124.247 s <<< FAILURE! - in TestSuite
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_10[Payel, Ghosh, ghosh.p189@gmail.com , Sarit@1983, Sarit@1983](2)  Time elapsed: 3.243 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_10(HomeTest.java:216)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_10[Geet , Saxena , geet.saxena@gmail.com , Abc@1234, Abc@1234](3)  Time elapsed: 3.758 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_10(HomeTest.java:216)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_2  Time elapsed: 22.559 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Password pattern is')]"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+*** Element info: {Using=xpath, value=//*[contains(text(),'Password pattern is')]}
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_2(HomeTest.java:80)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_3  Time elapsed: 2.719 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: TC_2_3([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6[Rosy , James , rosyjames1299@gmail.com , Rosy12345$, Rosy12345$](1)  Time elapsed: 3.672 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6(HomeTest.java:147)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6[Payel, Ghosh, ghosh.p189@gmail.com , Sarit@1983, Sarit@1983](2)  Time elapsed: 3.616 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6(HomeTest.java:147)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6[Geet , Saxena , geet.saxena@gmail.com , Abc@1234, Abc@1234](3)  Time elapsed: 3.148 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_6(HomeTest.java:147)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7[Rosy , James , rosyjames1299@gmail.com , Rosy12345$, Rosy12345$](1)  Time elapsed: 3.526 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7(HomeTest.java:164)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7[Payel, Ghosh, ghosh.p189@gmail.com , Sarit@1983, Sarit@1983](2)  Time elapsed: 3.496 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7(HomeTest.java:164)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7[Geet , Saxena , geet.saxena@gmail.com , Abc@1234, Abc@1234](3)  Time elapsed: 3.476 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_7(HomeTest.java:164)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8[Rosy , James , rosyjames1299@gmail.com , Rosy12345$, Rosy12345$](1)  Time elapsed: 3.575 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8(HomeTest.java:182)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8[Payel, Ghosh, ghosh.p189@gmail.com , Sarit@1983, Sarit@1983](2)  Time elapsed: 3.508 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8(HomeTest.java:182)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8[Geet , Saxena , geet.saxena@gmail.com , Abc@1234, Abc@1234](3)  Time elapsed: 3.535 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_8(HomeTest.java:182)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9[Rosy , James , rosyjames1299@gmail.com , Rosy12345$, Rosy12345$](1)  Time elapsed: 3.463 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9(HomeTest.java:199)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9[Payel, Ghosh, ghosh.p189@gmail.com , Sarit@1983, Sarit@1983](2)  Time elapsed: 3.528 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 538). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9(HomeTest.java:199)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9[Geet , Saxena , geet.saxena@gmail.com , Abc@1234, Abc@1234](3)  Time elapsed: 3.774 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div _ngcontent-pxc-c100="" class="google-signin-text">...</div> is not clickable at point (1034, 518). Other element would receive the click: <div _ngcontent-pxc-c100="" id="google-signin-spinner-loading" class="google-signin-spinner-container" style="display:block;">...</div>
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAYELANDSARIT', ip: '192.168.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Sarit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3405fbf8631bae07a96fee2bdc44de36
+	at org.voicemailtel.meet.framework.testcases.HomeTest.TC_2_9(HomeTest.java:199)
+
+org.voicemailtel.meet.framework.testcases.HomeTest.TC_3_1  Time elapsed: 4.276 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: TC_3_1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) ghosh.p189@gmail.com,(java.lang.String) Sarit@1983,(java.lang.String) Sarit@1983]
+

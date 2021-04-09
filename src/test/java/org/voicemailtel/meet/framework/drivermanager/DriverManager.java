@@ -13,14 +13,11 @@ public class DriverManager {
 
     private DriverManager() {
 
-        if (((String)AppConfig.getProperties("browser.name")).equalsIgnoreCase(Constants.CHROME))
-        {
+        if (((String) AppConfig.getProperties("browser.name")).equalsIgnoreCase(Constants.CHROME)) {
             System.setProperty(Constants.CHROME_KEY, (String) AppConfig.getProperties("chrome.driver.path"));
             //the above statement creates a variable/key called "webdriver.chrome.driver" in the OS/JVM and assigns a value = path of chromedriver.exe
             driver = new ChromeDriver();
-
-        }
-        else if (((String) AppConfig.getProperties("browser.name")).equalsIgnoreCase(Constants.FIREFOX)) {
+        } else if (((String) AppConfig.getProperties("browser.name")).equalsIgnoreCase(Constants.FIREFOX)) {
             System.setProperty(Constants.FIREFOX_KEY, (String) AppConfig.getProperties("firefox.driver.path"));
             driver = new FirefoxDriver();
         } else if (((String) AppConfig.getProperties("browser.name")).equalsIgnoreCase(Constants.EDGE)) {
@@ -30,10 +27,7 @@ public class DriverManager {
             System.setProperty(Constants.OPERA_KEY, (String) AppConfig.getProperties("opera.driver.path"));
             driver = new OperaDriver();
         }
-        //default
-            /*System.setProperty(Constants.CHROME_KEY, (String) AppConfig.getProperties(Constants.CHROME));
-            driver = new ChromeDriver();*/
-        }
+    }
 
     public static WebDriver getDriver()//getDriver() returns an instance of WebDriver class
     {

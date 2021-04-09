@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-//to create directories to store screenshot
+//to create directories to add screenshot
 public class CoreUtils {
     private static void createDirs(Path path){
         if(! Files.exists(path)){

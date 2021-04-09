@@ -24,7 +24,6 @@ import java.util.concurrent.TimeUnit;
 
 import static org.voicemailtel.meet.framework.reports.EmailReport.createTest;
 
-
 public class HomeTest {
     private WebDriver driver = DriverManager.getDriver();
 
