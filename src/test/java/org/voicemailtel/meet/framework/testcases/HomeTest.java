@@ -42,7 +42,7 @@ public class HomeTest {
         
     // Assert.assertEquals(URL, "https://meet.voicemailtel.com/" );
         System.out.println();
-     //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(â€œTest passedâ€�) } else { System.out.println(â€œTest failedâ€�)
+     //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(�Test passed") } else { System.out.println(â€œTest failedâ€�)
     }
    
    @Test
@@ -50,8 +50,16 @@ public class HomeTest {
        String URL = driver.getCurrentUrl();
        
     Assert.assertEquals(URL, "https://meet.voicemailtel.com/" );
-    //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(â€œTest passedâ€�) } else { System.out.println(â€œTest failedâ€�)
+    //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(�Test passed") } else { System.out.println(â€œTest failedâ€�)
    }
+   
+   public void TC_1_5() throws InterruptedException {
+       String URL = driver.getCurrentUrl();
+       
+    Assert.assertEquals(URL, "https://meet.voicemailtel.com/" );
+    //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(�Test passed") } else { System.out.println(â€œTest failedâ€�)
+   }
+   
 
    @Test(dataProvider = "SignUpProvider", dataProviderClass = HomeProvider.class )
     public void TC_2_1(String firstName, String lastName,String email , String password, String confirmPassword ) throws InterruptedException {
