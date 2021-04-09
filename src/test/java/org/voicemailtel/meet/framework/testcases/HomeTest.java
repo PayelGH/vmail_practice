@@ -42,7 +42,7 @@ public class HomeTest {
         
     // Assert.assertEquals(URL, "https://meet.voicemailtel.com/" );
         System.out.println();
-     //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println(â€œTest passedâ€�) } else { System.out.println(â€œTest failedâ€�)
+     //if(actualUrl.equalsIgnoreCase(expectedUrl)) { System.out.println("Test passed") } else { System.out.println("Test failed")
     }
    
    @Test
